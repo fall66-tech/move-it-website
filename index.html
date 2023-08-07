@@ -24,6 +24,30 @@
 .offset-md-1 {
     margin-left: 20%;
 }
+
+.hero {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 80vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.lead {
+	color: black;
+	font-weight: 300;
+}
+
   </style>
 </head>
 
@@ -63,7 +87,7 @@
 		</div>
 	  </nav>
 
-	  <div class="px-4 pt-5 my-5 text-center border-bottom">
+	  <div class="hero px-4 pt-5 my-5 text-center border-bottom">
 		<h1 class="display-4 fw-bold text-body-emphasis">Move With Joy</h1>
 		<div class="col-lg-6 mx-auto">
 		  <p class="lead mb-4">Welcome to our website, where we are on a mission to provide exceptional moving services to customers in the US. As a startup, we believe that moving doesn't have to be stressful or complicated, and we are passionate about making the process as seamless and enjoyable as possible.</p>
@@ -166,7 +190,7 @@
 
 	<div class="b-example-divider"></div>
 
-	<div class="container" style="background-color: ;">
+	<div class="container" >
 		<footer class="py-5">
 		  <div class="row">
 			<div class="col-6 col-md-2 mb-3">
